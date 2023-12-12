@@ -206,6 +206,8 @@ main .sixth {
     flex-wrap: nowrap;
 
     width: 100%;
+
+    border-bottom: #A2A3A3 2px solid;
 }
 
 main .sixth .container {
@@ -233,6 +235,33 @@ main .sixth .container .watergreen {
 
 /* END 6th SECTION */
 
+/* Footer */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-content: flex-end;
+
+    width: 100%;
+
+    padding-top: 24px;
+}
+
+footer .footer-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 60%;
+
+    background-color: #4CB2AA;
+
+    /* TEST HEIGHT */
+     height: 80px;
+}
+
+
+/* END Footer */
 
 /* TEST PART */
 
