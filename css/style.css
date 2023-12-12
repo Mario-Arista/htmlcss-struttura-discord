@@ -50,6 +50,10 @@ header .container .menu   {
 
 }
 
+header .container .menu li {
+
+    list-style: none;
+}
 
 header .container .login   {
     display: flex;
@@ -89,26 +93,36 @@ main .first .container {
 
 /* END FIRST SECTION */
 
+/* N. 2th - 3th and 4th SECTION */
 
-/* END Main's Style */
+main .second {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
 
+    width: 100%;
+}
 
+main .second .container {
+    width: 60%;
+
+    height: 500px;
+}
 /* TEST PART */
 
-/* HEADER PART  */
-
-header .container .menu li {
-
-    list-style: none;
-}
 /*  Background Color and dashed style */
 
+/* Dashed */
 
 .dashed {
 
     border: black 1px dashed;
 }
 
+/* END Dashed */
+
+/* Background colors */
 .sky-blue {
     background-color: #ADD8E6;
 }
@@ -124,4 +138,18 @@ header .container .menu li {
 .dark-pink {
     background-color: #EE82EE;
 }
-/*  END Background Color and dashed style */
+
+.white {
+    background-color: white;
+}
+
+.light-pink {
+    background-color: #F6BFCA;
+}
+
+.light-blue {
+    background-color: #1B64AE;
+}
+/* END Background colors */
+
+/* END TEST PART */
