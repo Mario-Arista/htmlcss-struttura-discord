@@ -125,12 +125,10 @@ main .second .container .content, main .forth .container .content {
 main .second .container div:first-child, main .forth .container div:first-child {
 
     width: 500px;
-    background-color: #2A8FF7;
 }
 
 main .second .container div:last-child, main .forth .container div:last-child {
     flex-grow: 1;
-    background-color: #F6BFCA;
 }
 
 /* END N. 2th and 4th SECTION */
@@ -166,12 +164,12 @@ main .third .container .content {
 
 main .third .container div:first-child {
     flex-grow: 1;
-    background-color: #F6BFCA;
+
 }
 
 main .third .container div:last-child {
     width: 500px;
-    background-color: #2A8FF7;
+
 }
 
 /* END N. 3th SECTION */
@@ -239,6 +237,13 @@ main .fifth .container {
 
 .green {
     background-color: #3F8B24;
+}
+
+.lightpink {
+    background-color: #F6BFCA;
+}
+.lightblue {
+    background-color: #2A8FF7;
 }
 /* END Background colors */
 
