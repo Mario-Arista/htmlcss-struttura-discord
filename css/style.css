@@ -39,21 +39,17 @@ header .container .logo   {
     border-right: black 2px dashed;
 }
 
-header .container .link   {
+header .container .menu   {
     display: flex;
     justify-content: center;
     align-items: center;
 
-    gap: 3px;
+    gap: 5px;
 
     flex-grow: 1;
 
 }
 
-header .container .link a {
-    text-decoration: none;
-    color: black;
-}
 
 header .container .login   {
     display: flex;
@@ -68,7 +64,17 @@ header .container .login   {
 
 /* END Header's Style */
 
+
+/* TEST PART */
+
+/* HEADER PART  */
+
+header .container .menu li {
+
+    list-style: none;
+}
 /*  Background Color and dashed style */
+
 
 .dashed {
 
