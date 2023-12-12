@@ -195,8 +195,44 @@ main .fifth .container {
     height: 930px;
 }
 
-
 /* END 5th SECTION */
+
+/* 6th SECTION */
+
+main .sixth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+
+    width: 100%;
+}
+
+main .sixth .container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+
+    width: 60%;
+
+    margin-top: 10px;
+    margin-bottom: 55px;
+
+    /* TEST HEIGHT */
+    height: 600px;
+
+}
+
+main .sixth .container div:first-child {
+    width: 370px;
+}
+
+main .sixth .container .watergreen {
+    flex-grow: 1;
+}
+
+/* END 6th SECTION */
+
 
 /* TEST PART */
 
@@ -244,6 +280,18 @@ main .fifth .container {
 }
 .lightblue {
     background-color: #2A8FF7;
+}
+
+.darkgrey {
+    background-color: #23272A;
+}
+
+.salmon {
+    background-color: #F08080;
+}
+
+.watergreen {
+    background-color: #4CB2AA;
 }
 /* END Background colors */
 
