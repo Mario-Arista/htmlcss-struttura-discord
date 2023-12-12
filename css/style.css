@@ -105,10 +105,34 @@ main .second {
 }
 
 main .second .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     width: 60%;
 
+    margin-top: 55px;
+    margin-bottom: 55px;
+}
+
+main .second .container .content {
+
+    /* TEST HEIGHT */
     height: 500px;
 }
+
+
+main .second .container div:first-child {
+
+    width: 500px;
+    background-color: #2A8FF7;
+}
+
+main .second .container div:last-child {
+    flex-grow: 1;
+    background-color: #F6BFCA;
+}
+
 /* TEST PART */
 
 /*  Background Color and dashed style */
@@ -143,13 +167,6 @@ main .second .container {
     background-color: white;
 }
 
-.light-pink {
-    background-color: #F6BFCA;
-}
-
-.light-blue {
-    background-color: #1B64AE;
-}
 /* END Background colors */
 
 /* END TEST PART */
