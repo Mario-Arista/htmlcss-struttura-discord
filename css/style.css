@@ -23,7 +23,7 @@ header .container {
 
     width: 60%;
 
-    padding: 10px;
+    padding: 5px;
     margin: 15px;
 }
 
@@ -34,9 +34,6 @@ header .container .logo   {
 
     width: 250px;
     padding-left: 2px;
-
-    /* BORDER TEST */
-    border-right: black 2px dashed;
 }
 
 header .container .menu   {
@@ -252,6 +249,29 @@ footer .container {
 .dashed {
 
     border: black 1px dashed;
+}
+
+header .container .logo   {
+
+    border-right: black 2px dashed;
+}
+
+header .container .login   {
+
+    border-left: black 2px dashed;
+}
+
+main .second .container div:first-child, main .forth .container div:first-child {
+
+        border-right: black 2px dashed;
+}
+
+main .sixth .container, main .sixth .container div:first-child {
+    border-right: black 2px dashed;
+}
+
+main .sixth .container .watergreen {
+    border-right: white 1px dashed;
 }
 
 /* END Dashed */
