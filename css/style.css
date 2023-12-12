@@ -217,14 +217,12 @@ footer {
     padding-top: 24px;
 }
 
-footer .footer-row {
+footer .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
 
     width: 60%;
-
-    background-color: #4CB2AA;
 
     /* TEST HEIGHT */
      height: 80px;
