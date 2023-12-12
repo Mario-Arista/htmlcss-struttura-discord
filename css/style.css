@@ -14,11 +14,8 @@ header {
 
     display: flex;
     justify-content: center;
-
-    /* COLORE TEST */
-    background-color: #ADD8E6;
-    
 }
+
 header .container {
     display: flex;
     justify-content: space-between;
@@ -28,10 +25,6 @@ header .container {
 
     padding: 5px;
     margin: 15px;
-
-        /* COLORE E BORDER TEST */
-    background-color: #DAA53B;
-    border: black 1px dashed;
 }
 
 header .container .logo   {
@@ -55,8 +48,6 @@ header .container .link   {
 
     flex-grow: 1;
 
-    /* BORDER TEST */
-    border-left: black 2px dashed;
 }
 
 header .container .link a {
@@ -75,5 +66,20 @@ header .container .login   {
     border-left: black 2px dashed;
 }
 
-
 /* END Header's Style */
+
+/*  Background Color and dashed style */
+
+.dashed {
+
+    border: black 1px dashed;
+}
+
+.sky-blue {
+    background-color: #ADD8E6;
+}
+.yellow {
+
+    background-color: #DAA53B;
+}
+/*  END Background Color and dashed style */
