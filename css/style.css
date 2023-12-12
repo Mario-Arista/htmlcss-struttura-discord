@@ -64,6 +64,34 @@ header .container .login   {
 
 /* END Header's Style */
 
+/* Main's Style */
+
+/* FIRST SECTION */
+
+main .first {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+
+    width: 100%;
+}
+
+main .first .container {
+    width: 50%;
+
+    margin-top: 55px;
+    margin-bottom: 55px;
+
+    /* TEST HEIGHT */
+    height: 415px;
+}
+
+/* END FIRST SECTION */
+
+
+/* END Main's Style */
+
 
 /* TEST PART */
 
@@ -87,5 +115,13 @@ header .container .menu li {
 .yellow {
 
     background-color: #DAA53B;
+}
+
+.blue {
+    background-color: #0A238B;
+}
+
+.dark-pink {
+    background-color: #EE82EE;
 }
 /*  END Background Color and dashed style */
