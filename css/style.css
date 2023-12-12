@@ -93,9 +93,9 @@ main .first .container {
 
 /* END FIRST SECTION */
 
-/* N. 2th - 3th and 4th SECTION */
+/* N. 2th and 4th SECTION */
 
-main .second {
+main .second, main .forth {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -104,7 +104,7 @@ main .second {
     width: 100%;
 }
 
-main .second .container {
+main .second .container, main .forth .container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -115,23 +115,66 @@ main .second .container {
     margin-bottom: 55px;
 }
 
-main .second .container .content {
+main .second .container .content, main .forth .container .content {
 
     /* TEST HEIGHT */
     height: 500px;
 }
 
 
-main .second .container div:first-child {
+main .second .container div:first-child, main .forth .container div:first-child {
 
     width: 500px;
     background-color: #2A8FF7;
 }
 
-main .second .container div:last-child {
+main .second .container div:last-child, main .forth .container div:last-child {
     flex-grow: 1;
     background-color: #F6BFCA;
 }
+
+/* END N. 2th and 4th SECTION */
+
+/* N. 3th SECTION */
+
+main .third {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+
+    width: 100%;
+}
+
+main .third .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 60%;
+
+    margin-top: 55px;
+    margin-bottom: 55px;
+}
+
+main .third .container .content {
+
+    /* TEST HEIGHT */
+    height: 500px;
+}
+
+
+main .third .container div:first-child {
+    flex-grow: 1;
+    background-color: #F6BFCA;
+}
+
+main .third .container div:last-child {
+    width: 500px;
+    background-color: #2A8FF7;
+}
+
+/* END N. 3th SECTION */
 
 /* TEST PART */
 
@@ -166,7 +209,9 @@ main .second .container div:last-child {
 .white {
     background-color: white;
 }
-
+.grey {
+    background-color: #D3D3D3;
+}
 /* END Background colors */
 
 /* END TEST PART */
