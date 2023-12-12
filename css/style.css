@@ -8,7 +8,7 @@
 
 /* END Reset Rules  */
 
-/* Header's Style */
+/* Header Style */
 
 header {
 
@@ -66,20 +66,23 @@ header .container .login   {
     border-left: black 2px dashed;
 }
 
-/* END Header's Style */
+/* END Header Style */
 
-/* Main's Style */
+/* Main Style - Same Flex sections rules*/
+
+main .first, main .second, main .third, main .forth, main .fifth, main .sixth {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: nowrap;
+
+width: 100%;
+
+}
+
+/* END Main Style - Same Flex sections rules*/
 
 /* FIRST SECTION */
-
-main .first {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: nowrap;
-
-    width: 100%;
-}
 
 main .first .container {
     width: 50%;
@@ -94,15 +97,6 @@ main .first .container {
 /* END FIRST SECTION */
 
 /* N. 2th and 4th SECTION */
-
-main .second, main .forth {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: nowrap;
-
-    width: 100%;
-}
 
 main .second .container, main .forth .container {
     display: flex;
@@ -134,15 +128,6 @@ main .second .container div:last-child, main .forth .container div:last-child {
 /* END N. 2th and 4th SECTION */
 
 /* N. 3th SECTION */
-
-main .third {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: nowrap;
-
-    width: 100%;
-}
 
 main .third .container {
     display: flex;
@@ -176,15 +161,6 @@ main .third .container div:last-child {
 
 /* 5th SECTION */
 
-main .fifth {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: nowrap;
-
-    width: 100%;
-}
-
 main .fifth .container {
     width: 60%;
 
@@ -200,12 +176,6 @@ main .fifth .container {
 /* 6th SECTION */
 
 main .sixth {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: nowrap;
-
-    width: 100%;
 
     border-bottom: #A2A3A3 2px solid;
 }
