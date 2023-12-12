@@ -1,9 +1,79 @@
 /* Reset Rules  */
+
 * {
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
 }
+
 /* END Reset Rules  */
 
+/* Header's Style */
 
+header {
+
+    display: flex;
+    justify-content: center;
+
+    /* COLORE TEST */
+    background-color: #ADD8E6;
+    
+}
+header .container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+
+    width: 60%;
+
+    padding: 5px;
+    margin: 15px;
+
+        /* COLORE E BORDER TEST */
+    background-color: #DAA53B;
+    border: black 1px dashed;
+}
+
+header .container .logo   {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    width: 250px;
+    padding-left: 2px;
+
+    /* BORDER TEST */
+    border-right: black 2px dashed;
+}
+
+header .container .link   {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 3px;
+
+    flex-grow: 1;
+
+    /* BORDER TEST */
+    border-left: black 2px dashed;
+}
+
+header .container .link a {
+    text-decoration: none;
+    color: black;
+}
+
+header .container .login   {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    width: 250px;
+
+    /* BORDER TEST */
+    border-left: black 2px dashed;
+}
+
+
+/* END Header's Style */
