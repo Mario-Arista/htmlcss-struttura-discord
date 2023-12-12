@@ -176,6 +176,30 @@ main .third .container div:last-child {
 
 /* END N. 3th SECTION */
 
+/* 5th SECTION */
+
+main .fifth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+
+    width: 100%;
+}
+
+main .fifth .container {
+    width: 60%;
+
+    margin-top: 55px;
+    margin-bottom: 55px;
+
+    /* TEST HEIGHT */
+    height: 930px;
+}
+
+
+/* END 5th SECTION */
+
 /* TEST PART */
 
 /*  Background Color and dashed style */
@@ -211,6 +235,10 @@ main .third .container div:last-child {
 }
 .grey {
     background-color: #D3D3D3;
+}
+
+.green {
+    background-color: #3F8B24;
 }
 /* END Background colors */
 
