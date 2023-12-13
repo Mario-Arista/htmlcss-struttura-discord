@@ -67,7 +67,7 @@ nav .container .login   {
 
 /* Main Style - Same Flex sections rules*/
 
-header, main .second, main .third, main .forth, main .fifth, main .sixth {
+header, main .first, main .second, main .third, main .forth, main .sixth {
 display: flex;
 justify-content: center;
 align-items: center;
@@ -93,9 +93,9 @@ header .container {
 
 /* END HEADER */
 
-/* N. 2th and 4th SECTION */
+/* N. 1th and 3th SECTION */
 
-main .second .container, main .forth .container {
+main .first .container, main .third .container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -106,27 +106,27 @@ main .second .container, main .forth .container {
     margin-bottom: 55px;
 }
 
-main .second .container .content, main .forth .container .content {
+main .first .container .content, main .third .container .content {
 
     /* TEST HEIGHT */
     height: 500px;
 }
 
 
-main .second .container div:first-child, main .forth .container div:first-child {
+main .first .container div:first-child, main .third .container div:first-child {
 
     width: 500px;
 }
 
-main .second .container div:last-child, main .forth .container div:last-child {
+main .first .container div:last-child, main .third .container div:last-child {
     flex-grow: 1;
 }
 
-/* END N. 2th and 4th SECTION */
+/* END N. 1th and 3th SECTION */
 
-/* N. 3th SECTION */
+/* N. 2th SECTION */
 
-main .third .container {
+main .second .container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -137,28 +137,28 @@ main .third .container {
     margin-bottom: 55px;
 }
 
-main .third .container .content {
+main .second .container .content {
 
     /* TEST HEIGHT */
     height: 500px;
 }
 
 
-main .third .container div:first-child {
+main .second .container div:first-child {
     flex-grow: 1;
 
 }
 
-main .third .container div:last-child {
+main .second .container div:last-child {
     width: 500px;
 
 }
 
-/* END N. 3th SECTION */
+/* END N. 2th SECTION */
 
-/* 5th SECTION */
+/* 4th SECTION */
 
-main .fifth .container {
+main .forth .container {
     width: 60%;
 
     margin-top: 55px;
@@ -168,7 +168,7 @@ main .fifth .container {
     height: 930px;
 }
 
-/* END 5th SECTION */
+/* END 4th SECTION */
 
 /* 6th SECTION */
 
