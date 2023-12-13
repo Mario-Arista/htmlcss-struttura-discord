@@ -67,7 +67,7 @@ nav .container .login   {
 
 /* Main Style - Same Flex sections rules*/
 
-main .first, main .second, main .third, main .forth, main .fifth, main .sixth {
+header, main .second, main .third, main .forth, main .fifth, main .sixth {
 display: flex;
 justify-content: center;
 align-items: center;
@@ -79,9 +79,9 @@ width: 100%;
 
 /* END Main Style - Same Flex sections rules*/
 
-/* FIRST SECTION */
+/* HEADER */
 
-main .first .container {
+header .container {
     width: 50%;
 
     margin-top: 55px;
@@ -91,7 +91,7 @@ main .first .container {
     height: 415px;
 }
 
-/* END FIRST SECTION */
+/* END HEADER */
 
 /* N. 2th and 4th SECTION */
 
