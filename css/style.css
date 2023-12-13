@@ -8,18 +8,36 @@
 
 /* END Reset Rules  */
 
+/* Flex common general rules */
+
+.flex {
+
+display: flex;
+
+}
+
+
+.centered {
+
+justify-content: center;
+align-items: center;
+flex-wrap: nowrap;
+
+width: 100%;
+
+}
+
+/* END Flex common general rules */
+
+
 /* NAV Style */
 
 nav {
-
-    display: flex;
     justify-content: center;
 }
 
 nav .container {
-    display: flex;
     justify-content: space-between;
-    flex-wrap: nowrap;
 
     width: 60%;
 
@@ -28,7 +46,6 @@ nav .container {
 }
 
 nav .container .logo   {
-    display: flex;
     justify-content: flex-start;
     align-items: center;
 
@@ -37,7 +54,6 @@ nav .container .logo   {
 }
 
 nav .container .menu   {
-    display: flex;
     justify-content: center;
     align-items: center;
 
@@ -53,7 +69,6 @@ nav .container .menu li {
 }
 
 nav .container .login   {
-    display: flex;
     justify-content: flex-end;
     align-items: center;
 
@@ -65,19 +80,6 @@ nav .container .login   {
 
 /* END NAV Style */
 
-/* Flex sections rules*/
-
-header, main .first, main .second, main .third, main .forth, footer .top-footer {
-display: flex;
-justify-content: center;
-align-items: center;
-flex-wrap: nowrap;
-
-width: 100%;
-
-}
-
-/* END Same Flex sections rules*/
 
 /* HEADER */
 
@@ -98,9 +100,6 @@ header .container {
 /* N. 1th and 3th SECTION */
 
 main .first .container, main .third .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
 
     width: 60%;
 
@@ -129,9 +128,6 @@ main .first .container div:last-child, main .third .container div:last-child {
 /* N. 2th SECTION */
 
 main .second .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
 
     width: 60%;
 
@@ -185,7 +181,6 @@ footer .top-footer {
 }
 
 footer .top-footer .container {
-    display: flex;
     justify-content: space-around;
     flex-wrap: nowrap;
 
@@ -212,7 +207,6 @@ footer .top-footer .container .watergreen {
 /* BOTTOM FOOTER */
 
 footer .bottom-footer {
-    display: flex;
     justify-content: center;
     align-items: flex-end;
     
@@ -220,7 +214,6 @@ footer .bottom-footer {
 }
 
 footer .bottom-footer .container  {
-    display: flex;
     justify-content: space-between;
     align-items: center;
 
