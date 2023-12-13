@@ -8,15 +8,15 @@
 
 /* END Reset Rules  */
 
-/* Header Style */
+/* NAV Style */
 
-header {
+nav {
 
     display: flex;
     justify-content: center;
 }
 
-header .container {
+nav .container {
     display: flex;
     justify-content: space-between;
     flex-wrap: nowrap;
@@ -27,7 +27,7 @@ header .container {
     margin: 15px;
 }
 
-header .container .logo   {
+nav .container .logo   {
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -36,7 +36,7 @@ header .container .logo   {
     padding-left: 2px;
 }
 
-header .container .menu   {
+nav .container .menu   {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -47,12 +47,12 @@ header .container .menu   {
 
 }
 
-header .container .menu li {
+nav .container .menu li {
 
     list-style: none;
 }
 
-header .container .login   {
+nav .container .login   {
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -63,7 +63,7 @@ header .container .login   {
     border-left: black 2px dashed;
 }
 
-/* END Header Style */
+/* END NAV Style */
 
 /* Main Style - Same Flex sections rules*/
 
@@ -251,12 +251,12 @@ footer .container {
     border: black 1px dashed;
 }
 
-header .container .logo   {
+nav .container .logo   {
 
     border-right: black 2px dashed;
 }
 
-header .container .login   {
+nav .container .login   {
 
     border-left: black 2px dashed;
 }
