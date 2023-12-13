@@ -65,9 +65,9 @@ nav .container .login   {
 
 /* END NAV Style */
 
-/* Main Style - Same Flex sections rules*/
+/* Flex sections rules*/
 
-header, main .first, main .second, main .third, main .forth, main .sixth {
+header, main .first, main .second, main .third, main .forth, footer .top-footer {
 display: flex;
 justify-content: center;
 align-items: center;
@@ -77,7 +77,7 @@ width: 100%;
 
 }
 
-/* END Main Style - Same Flex sections rules*/
+/* END Same Flex sections rules*/
 
 /* HEADER */
 
@@ -92,6 +92,8 @@ header .container {
 }
 
 /* END HEADER */
+
+/* MAIN  */
 
 /* N. 1th and 3th SECTION */
 
@@ -170,14 +172,19 @@ main .forth .container {
 
 /* END 4th SECTION */
 
-/* 6th SECTION */
+/* MAIN  */
 
-main .sixth {
+/* Footer */
 
+/* TOP FOOTER */
+
+footer .top-footer {
+
+    /* TEST  */
     border-bottom: #A2A3A3 2px solid;
 }
 
-main .sixth .container {
+footer .top-footer .container {
     display: flex;
     justify-content: space-around;
     flex-wrap: nowrap;
@@ -192,51 +199,51 @@ main .sixth .container {
 
 }
 
-main .sixth .container div:first-child {
+footer .top-footer .container div:first-child {
     width: 370px;
 }
 
-main .sixth .container .watergreen {
+footer .top-footer .container .watergreen {
     flex-grow: 1;
 }
 
-/* END 6th SECTION */
+/* END TOP FOOTER */
 
-/* Footer */
+/* BOTTOM FOOTER */
 
-footer {
+footer .bottom-footer {
     display: flex;
     justify-content: center;
-    align-content: flex-end;
-
-    width: 100%;
-
+    align-items: flex-end;
+    
     padding-top: 24px;
 }
 
-footer .container {
+footer .bottom-footer .container  {
     display: flex;
     justify-content: space-between;
     align-items: center;
 
     width: 60%;
 
-    /* TEST HEIGHT */
-     height: 80px;
+    /* TEST HEIGHT  */
+    height: 80px;
+
 }
 
-.logofooter {
-    width: 70px;
+footer .bottom-footer .logo-footer div {
+    padding: 5px 2px;
     text-align: center;
 
 }
 
-.buttonfooter {
-    width: 90px;
+footer .bottom-footer .button-footer div {
+    padding: 5px 2px;
     text-align: center;
 
-}
+} 
 
+/* END BOTTOM FOOTER */
 
 /* END Footer */
 
@@ -261,16 +268,16 @@ nav .container .login   {
     border-left: black 2px dashed;
 }
 
-main .second .container div:first-child, main .forth .container div:first-child {
+main .first .container div:first-child, main .third .container div:first-child {
 
         border-right: black 2px dashed;
 }
 
-main .sixth .container, main .sixth .container div:first-child {
+footer .top-footer .container, footer .top-footer .container div:first-child {
     border-right: black 2px dashed;
 }
 
-main .sixth .container .watergreen {
+footer .top-footer .container .watergreen {
     border-right: white 1px dashed;
 }
 
